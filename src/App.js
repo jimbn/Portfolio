@@ -1,3 +1,7 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+
+
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -8,7 +12,31 @@ import Project from "./components/Project";
 import Resume from "./components/Resume";
 
 function App() {
-
+<>
+    <Router>
+        <Routes>
+            <Route
+                path='/'
+                element={ <Home/> }
+            />
+            <Route
+                path='/AboutMe'
+                element={ <About/> }
+            />
+            <Route
+                path='/AboutMe/Resume'
+            />
+            <Route
+                path='/Project'
+                element={ <Project/> }
+            />
+            <Route
+                path='/Project/:id'
+                element={ <SingleProject/> }
+            />
+        </Routes>
+    </Router>
+</>
 }
 
 export default App;
