@@ -1,16 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import './style.css'
+import gitPic from './whiteGit.png';
+import linkPic from './link.png';
+import gmailPic from './gmail.jpg';
 
 function Footer () {
-    <section>
-    <h1>About Me</h1>
-    <div>
-        <p>
-        My experience in coding has not been that extensive. Although my time in coding has been short, I try to dedicate myself in improving every day. 
-        I enjoy learning different skills while honing the knowledge I currently have. I am currently working with MERN stack, improving and perfienct with using MongoleDB, Express, React and Node.
-        </p>
-    </div>
-</section>
-
+    return(
+    <section className="contact">
+        <ul > 
+            <li>
+                <a href="https://github.com/jimbn">
+                    <img src={gitPic} alt="GitHub Icon" /> 
+                </a>
+            </li>
+            <li>
+                <a href="mailto:nguyenb.jim@gmail.com">
+                    <img src={gmailPic}alt="Gmail Icon" /> 
+                </a>
+            </li>           
+            <li>
+                <a href="https://www.linkedin.com/in/jim-nguyen-342798121?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BsUgtgtIT5axyqFwuc12Wg%3D%3D">
+                    <img src={linkPic} alt="Linkedin Icon" /> 
+                </a>
+            </li>
+        </ul>
+    </section>
+    );
 };
 
 export default Footer;

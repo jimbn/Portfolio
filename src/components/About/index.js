@@ -1,16 +1,37 @@
 import React from 'react';
+import './style.css';
+import me from './mePic.jpg';
 
 function About() {
     return (
-        <section>
+    <>
+        <div className="home">
             <h1>About Me</h1>
+            <div className='profile'>
+                <div>
+                    <div className="profile-pic"> 
+                        <img src={me} alt="Jim Bui Nguyen" /> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="About">
             <div>
                 <p>
-                My experience in coding has not been that extensive. Although my time in coding has been short, I try to dedicate myself in improving every day. 
-                I enjoy learning different skills while honing the knowledge I currently have. I am currently working with MERN stack, improving and perfienct with using MongoleDB, Express, React and Node.
+                    Full stack web  developer focusing on MERN stack. Recently completed and earned a certificate
+                    in Full Stack Web Development from University of California, Berkeley coding bootcamp. With my experience,
+                    I enjoy learning and apply new concepts and knowledge to create and improve on various web
+                    applications that implements CRUD.
+                </p>
+                <p>
+                    As a backstory, I graduated from University of California, Irvine with a bachelor degree in
+                    Biological Science. I have previously work in retail, food services, and commercial realestate. 
+                    With my past experiences, it built my problem solving skills and being able to work independently
+                    and in a team environment. 
                 </p>
             </div>
-        </section>
+        </div>
+    </>
     )
 }
 

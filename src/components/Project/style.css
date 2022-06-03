@@ -1,0 +1,49 @@
+.portfolio h1{
+    font-size: 3rem;
+    text-decoration: underline;
+    padding: 2rem;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.card {
+    border: .5rem solid slategrey;
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    opacity: 50%;
+    background-size: contain;
+    display: flex;
+    margin: 2rem;
+    justify-content: space-evenly;
+    width: 40%;
+    height: auto;
+    
+}
+
+.card h1, .card h3 {
+    color: black;
+    text-shadow: 2px 2px 2px grey;
+    background: white;
+}
+
+
+.card:hover {
+    opacity: 100%;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover {
+    font-weight: bolder;
+    box-shadow: 10px 2px 5px grey;
+}

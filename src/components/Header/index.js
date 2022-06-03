@@ -7,21 +7,22 @@ function Header () {
     return (
         
         <div className="header-style">
+            <div><h1 className="title">Jim Bui Nguyen</h1></div>
             <div className="header-nav">
                 <ul>
                     <li>
-                        <Link className='link-decoration' to="/">
-                            Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className='link-decoration' to="/About">
+                        <Link to="/">
                             About Me
                         </Link>
                     </li>
                     <li>
-                        <Link className='link-decoration' to="/Project">
-                            Projects
+                        <Link to="/Portfolio" >
+                            Portfolio
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/Contact">
+                            Contact
                         </Link>
                     </li>
 

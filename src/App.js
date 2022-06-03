@@ -1,45 +1,31 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css'
 
-import Home from './pages/Home';
-// import About from "./components/About";
-// import Contact from "./components/Contact";
-// import Footer from "./components/Footer";
-import Header from "./components/Header";
-// import Nav from "./components/Nav";
-// import Portfolio from "./components/Portfolio";
-// import Project from "./components/Project";
-// import Resume from "./components/Resume";
+
+import Header from './components/Header';
+import Footer from './components/Footer'
+import Contact from './components/Contact';
+import About from './components/About';
+import Project from './components/Project';
+
 
 function App() {
-    return (
-    <>
-     
-    <Router>
-        <Routes>
-            <Route
-                path='/'
-                element={ <Home/> }
-            /> 
-            {/* <Route
-                path='/AboutMe'
-                element={ <About/> }
-            />
-            <Route
-                path='/AboutMe/Resume'
-            />
-            <Route
-                path='/Project'
-                element={ <Project/> }
-            />
-            <Route
-                path='/Project/:id'
-                element={ <SingleProject/> }
-            />  */}
-         </Routes>
-    </Router> 
-    </>
+
+    return(
+    <div className='wrapper'>
+        <Router> 
+            <Header/>
+            <Routes>
+                <Route path ='/' element={<About/>} />
+                <Route path='/Portfolio' element={<Project/>} />
+                <Route path='/Contact' elment={<Contact/>} />
+            </Routes>
+            <Footer/>
+        </Router>
+    </div>
     )
 }
+
 
 export default App;
