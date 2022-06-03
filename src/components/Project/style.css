@@ -28,9 +28,9 @@
 }
 
 .card h1, .card h3 {
-    color: black;
+    color: white;
     text-shadow: 2px 2px 2px grey;
-    background: white;
+    background: black;
 }
 
 
