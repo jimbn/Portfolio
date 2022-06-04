@@ -15,9 +15,7 @@ My Portfolio built using React
 
 -[Usage](#Usage)
 
--[Contributions](#Contributions)
 
--[Tests](#Tests)
 
 -[Questions](#Questions)
 
@@ -32,11 +30,9 @@ My Portfolio built using React
   This is my portfolio built using React.JS
   
   ## Live Site 📽️
-  
-  
-  
+
   Below is the link to the live deployed site.
-  [Check it out](https://sammcowen.github.io/stunning-train/)
+  [Check it out](https://immense-anchorage-15316.herokuapp.com/)
   
 
   ## Installation 💾
@@ -48,19 +44,9 @@ My Portfolio built using React
 
   User can checkout my portfolio at the live deployed site below
   
-   [Click Here](https://sammcowen.github.io/stunning-train/)
+   [Click Here](https://immense-anchorage-15316.herokuapp.com/)
+    
+
+  ## Questions 
+  Any questions please reach out to me at my [Github](https://github.com/jimbn)
    
-  My work can be found by clicking  'My Work' in the navigation links. Users can click the images of my work and be taken tot he live sites of them.
-  My contact information can be found in the 'Contact Me' section on the portfolio. 📱 
-
-  ## Contributions 🖋️
-  If you would like to contribute to this project, please follow these guidelines: 
-
-  N/A
-
-  ## Tests 🧪
-  N/A
-
-  ## Questions ❓
-  Any questions please reach out to me at my [Github](https://github.com/sammcowen)
-   or by my email at  sammcowen@gmail.com
