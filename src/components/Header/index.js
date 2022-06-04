@@ -20,11 +20,11 @@ function Header () {
                             Portfolio
                         </Link>
                     </li>
-                    {/* <li>
+                    <li>
                         <Link to="/Contact">
                             Contact
                         </Link>
-                    </li> */}
+                    </li>
                     <li>
                         <Link to='/Resume'>
                             Resume

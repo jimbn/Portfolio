@@ -3,6 +3,25 @@
     text-decoration: underline;
 }
 
-.form {
+
+form {
+    width: 40%;
+}
+  
+.form-field {
     padding: 2rem;
 }
+
+  input {
+    font-size: 1rem;
+    border: 1px solid var(--dark);
+    outline: none;
+    border-radius: 3px;
+    transition: box-shadow 0.2s;
+  }
+  
+  input:focus {
+    border: 1px solid var(--secondary);
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+  }
+  
