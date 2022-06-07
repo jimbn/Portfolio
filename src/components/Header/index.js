@@ -1,14 +1,14 @@
 import React from "react";
 import  './style.css';
 
-function Header () {
+function Header (props) {
 
     return (
         
-        <div className="header-style">
+        <header className="header-style">
             <div><h1 className="title">Jim Bui Nguyen</h1></div>
             {props.children}
-        </div>
+        </header>
     )
 }
 

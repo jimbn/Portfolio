@@ -11,28 +11,26 @@ function App() {
 
     const [pages] = useState ([
         { name: "About me" },
-        { name: "Portfolio" },
+        { name: "Project" },
         { name: "Contact" },
-        { name: "resume" }
+        { name: "Resume" }
     ]);
 
     const [ currentPage, setCurrentPage ] = useState(pages[0]);
 
     return(
     <div className='wrapper'>
-        <Router> 
-            <Header>
-                <Nav  
-                    pages={pages}
-                    setCurrentPage={setCurrentPage}
-                    currentPage={currentPage}
-                ></Nav>
-            </Header>
-            <main>
-                <Page currentPage={currentPage}></Page>
-            </main>
-            <Footer/>
-        </Router>
+        <Header>
+            <Nav  
+                pages={pages}
+                setCurrentPage={setCurrentPage}
+                currentPage={currentPage}
+            ></Nav>
+        </Header>
+        <main>
+            <Page currentPage={currentPage}></Page>
+        </main>
+        <Footer/>
     </div>
     )
 }
