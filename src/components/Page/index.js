@@ -2,7 +2,7 @@ import React from 'react';
 import PageContent from '../PageContent';
 import About from '../About';
 import Project from '../Project';
-import Contact from '../Contact';
+// import Contact from '../Contact';
 import Resume from '../Resume';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
@@ -14,8 +14,8 @@ function Page({ currentPage }) {
         return <About />;
       case 'Project':
         return <Project />;
-      case 'Contact':
-        return <Contact />;
+    //   case 'Contact':
+    //     return <Contact />;
       case 'Resume':
         return <Resume />;
       default:

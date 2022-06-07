@@ -12,7 +12,7 @@ function App() {
     const [pages] = useState ([
         { name: "About me" },
         { name: "Project" },
-        { name: "Contact" },
+        // { name: "Contact" },
         { name: "Resume" }
     ]);
 
