@@ -1,5 +1,8 @@
 import React from "react";
-import placeholder from '../../assets/placeholder.jpg';
+import BestFriend from './ProjectScreenShot/HumanBestFriend.png';
+import OnlyFriend from './ProjectScreenShot/OnlyFriends.png';
+// import placeholder from '../../assets/placeholder.jpg';
+import PartyHearty from './ProjectScreenShot/PartyHearty.jpg'
 import './style.css'
 import gitPic from './blackGit.png'
 
@@ -12,7 +15,7 @@ function Project () {
             library: "mongoose, graphql, react, express, node, MaterialUi, leaflet, bootstrap",
             gitHub: 'https://github.com/sammcowen/party_hearty',
             site: "https://stormy-thicket-02132.herokuapp.com/",
-            image: placeholder,
+            image: PartyHearty,
         },
         {
             name: "Human's Best Friend",
@@ -21,7 +24,7 @@ function Project () {
             library: "MD Bootstrap",
             gitHub:'https://github.com/jimbn/Project-01',
             site: "https://jimbn.github.io/Project-01/",
-            image: placeholder,
+            image: BestFriend,
         },
         {
             name: "Only_Friends",
@@ -30,35 +33,9 @@ function Project () {
             library: "MySql2, Express, Node, Multer, Handlebars",
             gitHub:'https://github.com/MCORTEZM1/Only_Friends',
             site: "https://only-friendz.herokuapp.com/",
-            image: placeholder,
+            image: OnlyFriend,
         },
-        {
-            name: 'Party Hearty',
-            description: 'Third Project',
-            language: "HTML, CSS, JS",
-            library: "mongoose, graphql, react, express, node, MaterialUi, leaflet, bootstrap",
-            gitHub:'https://github.com/sammcowen/party_hearty',
-            site: "https://stormy-thicket-02132.herokuapp.com/",
-            image: placeholder,
-        },
-        {
-            name: 'Party Hearty',
-            description: 'Third Project',
-            language: "HTML, CSS, JS",
-            library: "mongoose, graphql, react, express, node, MaterialUi, leaflet, bootstrap",
-            gitHub: 'https://github.com/sammcowen/party_hearty',
-            site: "https://stormy-thicket-02132.herokuapp.com/",
-            image: placeholder,
-        },
-        {
-            name: 'Party Hearty',
-            description: 'Third Project',
-            language: "HTML, CSS, JS",
-            library: "mongoose, graphql, react, express, node, MaterialUi, leaflet, bootstrap",
-            gitHub: 'https://github.com/sammcowen/party_hearty',
-            site: "https://stormy-thicket-02132.herokuapp.com/",
-            image: placeholder,
-        },
+            
         
     ];
 
@@ -67,28 +44,32 @@ function Project () {
 
     return (
         <>
-        <div className="portfolio">
-            <h1>Portfolio</h1>
-        </div>
         <div className="flex">
             {array.map((array) =>(
-                <div className='card' style={{backgroundImage: `url(${array.image})`}}>
-                    <div>
-                        <h1>{array.name}</h1>
-                        <h3>Languages: {array.language}</h3>
-                        <h3>{array.library}</h3>
-                    </div>
-                    <div>
+                <div className='project'>
+                    <img 
+                        src={array.image}
+                        alt={array.name}
+                        className="project-bg"
+                    />
+                    <div className ="project-text">
                         <div>
-                            <a href = {array.gitHub}>
-                                <img src={gitPic} alt="GitHub Icon" /> 
-                            </a> 
+                            <h1>{array.name}</h1>
+                            <h3>{array.language}</h3>
+                            <h3>{array.library}</h3>
                         </div>
-                        <br></br>
-                        <div>
-                            <a href = {array.site}>
-                                Visit Site
-                            </a>
+                        <div className="flex">
+                            <div >
+                                <a href = {array.gitHub}>
+                                    <img className="gitIcon" src={gitPic} alt="GitHub Icon" /> 
+                                </a> 
+                            </div>
+                            <br></br>
+                            <div>
+                                <a href = {array.site}>
+                                    Visit Site
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

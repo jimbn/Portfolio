@@ -1,8 +1,4 @@
-.portfolio h1{
-    font-size: 3rem;
-    text-decoration: underline;
-    padding: 2rem;
-}
+
 
 .flex{
     display: flex;
@@ -24,13 +20,13 @@
     justify-content: space-evenly;
     width: 40%;
     height: auto;
+    text-align: center;
     
 }
 
-.card h1, .card h3 {
+/* .card h1, .card h3 {
     color: white;
-    text-shadow: 2px 2px 2px grey;
-    background: black;
+    text-shadow: 2px 2px 5px black;
 }
 
 
@@ -46,4 +42,4 @@
 .card a:hover {
     font-weight: bolder;
     box-shadow: 10px 2px 5px grey;
-}
+} */

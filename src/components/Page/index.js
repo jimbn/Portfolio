@@ -10,7 +10,7 @@ function Page({ currentPage }) {
 
   const renderPage = () => {
     switch (currentPage.name) {
-      case 'About me':
+      case 'About Me':
         return <About />;
       case 'Project':
         return <Project />;
