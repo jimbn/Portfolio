@@ -4,7 +4,7 @@ import OnlyFriend from './ProjectScreenShot/OnlyFriends.png';
 // import placeholder from '../../assets/placeholder.jpg';
 import PartyHearty from './ProjectScreenShot/PartyHearty.jpg'
 import './style.css'
-import gitPic from './blackGit.png'
+import gitPic from './whiteGit.png'
 
 function Project () {
     const array = [

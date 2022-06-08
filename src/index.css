@@ -76,7 +76,7 @@ img {
 }
 
 .project-text:hover {
-  background-color: rgba(0,0,0, .8);
+  background-color: rgba(0,0,0, .9);
   opacity: 1;
   border: 10px solid slategrey;
 }
