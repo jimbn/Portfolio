@@ -7,7 +7,7 @@ main {
 * {
   box-sizing: border-box;
   font-family:Georgia, 'Times New Roman', Times, serif;
-
+  z-index: 5;
 }
 
 html,

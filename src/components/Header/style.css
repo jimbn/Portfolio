@@ -38,3 +38,41 @@
 .header-nav a:hover{
     color: slategrey;
 }
+
+.diamond {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom: 70px solid slategrey;
+    position: relative;
+    top:-50px;
+}
+
+.diamond:after { 
+  content: ''; 
+  position: absolute; 
+  left: -50px; top: 70px; 
+  width: 0;  
+  height: 0; 
+  border: 50px solid transparent; 
+  border-top: 70px solid slategrey; 
+}
+
+.menu{
+  color: white;
+  background-color: white;
+  opacity: 0;
+  pointer-events: none;
+  transition: 1s;
+  transform: translateY(-3rem);
+  display: grid;
+}
+
+.menu-open{
+    opacity: 1;
+    transition: 1s;
+    pointer-events: all;
+    z-index: 20;
+    transform: translateY(0);
+
+}
