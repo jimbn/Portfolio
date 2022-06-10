@@ -20,13 +20,13 @@
     /* background-image: linear-gradient(rgb(112, 128, 144),rgb(192, 192, 192)); */
     /* border-bottom: 1px solid rgba(192, 192, 192, 0.5);; */
     display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
-    position: sticky;
+    /* flex-wrap: wrap; */
+    position: fixed;
     position: -webkit-sticky;
     top: 0;
+    right: 0;
     height: 100%;
-    z-index: 9999;
+    z-index: 9000;
 }
 
 .header-nav {
@@ -108,24 +108,3 @@
 
 }
 
-.menu{
-  color: white;
-  background-color: white;
-  opacity: 0;
-  pointer-events: none;
-  transition: 1s;
-  transform: translateY(-3rem);
-  transform: translateX(-3rem);
-
-  display: grid;
-}
-
-.menu-open{
-    opacity: 1;
-    transition: 5s;
-    pointer-events: all;
-    z-index: 20;
-    transform: translateY(0);
-    transform: translateX(-3rem);
-
-}

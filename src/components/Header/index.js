@@ -8,11 +8,15 @@ function Header (props) {
         menuOpen = !menuOpen;
 
         const menu = document.querySelector('.menu');
+        const body = document.querySelector('body');
 
         if(menuOpen){
-            menu.classList.add('menu-open')
+            menu.classList.add('menu-open');
+            body.classList.add('hide-overflow')
         } else {
-            menu.classList.remove('menu-open')
+            menu.classList.remove('menu-open');
+            body.classList.remove('hide-overflow')
+
         }
     } 
 
@@ -21,7 +25,6 @@ function Header (props) {
     return (
     <>    
         <header className="header-style">
-            <div className="menu">{props.children}</div>
             <div>
                 <div className="diamond-border">
                 </div>
@@ -29,6 +32,8 @@ function Header (props) {
                 </div>          
             </div>
         </header>
+        <div className="menu">{props.children}</div>
+
     </>
 
     )

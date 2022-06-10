@@ -14,13 +14,12 @@ function Nav(props) {
   }, [currentPage]);
 
   const removeClass=()=>{
-
     const menu = document.querySelector('.menu');
+    const body = document.querySelector('body');
 
-    
     menu.classList.remove('menu-open')
-  
-}
+    body.classList.remove('hide-overflow')
+  }
 
   return (    
       <nav className='nav'>

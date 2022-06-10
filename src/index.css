@@ -11,6 +11,10 @@ main {
   padding: 50px 30px;
 }
 
+.hide-overflow {
+  overflow: hidden;
+}
+
 * {
   box-sizing: border-box;
   font-family:Georgia, 'Times New Roman', Times, serif;
