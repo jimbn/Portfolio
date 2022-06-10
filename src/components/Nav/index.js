@@ -13,6 +13,14 @@ function Nav(props) {
     document.title = capitalizeFirstLetter(currentPage.name);
   }, [currentPage]);
 
+  const removeClass=()=>{
+    const menu = document.querySelector('.menu');
+    const body = document.querySelector('body');
+
+    menu.classList.remove('menu-open')
+    body.classList.remove('hide-overflow')
+  }
+
   return (    
       <nav className='nav'>
         <ul className="flex-row">
@@ -24,7 +32,7 @@ function Nav(props) {
               key={Page.name}
             >
               <span
-                onClick={() => setCurrentPage(Page)}
+                onClick={() => setCurrentPage(Page) & removeClass()}
               >
                 {capitalizeFirstLetter(Page.name)}
               </span>

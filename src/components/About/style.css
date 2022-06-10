@@ -10,7 +10,6 @@
 .home {
     text-align: center;
     flex-direction: column;
-    background: black no-repeat center fixed;
     background-size: cover;
     background-attachment: fixed;
     justify-content: center;
@@ -26,7 +25,6 @@
     width: 300px;
     height: 300px;
     border: 2px solid;
-    color: rgba(0, 0, 0, .25);
     border-radius: 75%;
 }
 

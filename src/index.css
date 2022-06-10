@@ -1,13 +1,24 @@
+:root {
+  --text-color: rgb(156, 151, 253);
+  --text-shadow-highlight: 0 2px 3px #191627;
+  --text-shadow: 0 0 5px white;
+  --diamond-color: rgb(46, 43, 114);
+  --diamond-border: rgb(150, 137, 225)
+}
 main {
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
 }
 
+.hide-overflow {
+  overflow: hidden;
+}
+
 * {
   box-sizing: border-box;
   font-family:Georgia, 'Times New Roman', Times, serif;
-
+  z-index: 5;
 }
 
 html,
@@ -24,8 +35,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  color: silver;
+  background-image: url('./assets/vecteezy_network-communications-banner-with-low-poly-design_2416021/network_communications_banner_with_low_poly_design_0803_generated.jpg');
+  color: var(--text-color);
+  text-shadow: var(--text-shadow), var(--text-shadow-highlight);
 }
 
 code {
