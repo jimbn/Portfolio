@@ -14,16 +14,21 @@ function Header (props) {
         } else {
             menu.classList.remove('menu-open')
         }
-    }
+    } 
+
+ 
 
     return (
     <>    
         <header className="header-style">
-            <div><h1 className="title">Jim Bui Nguyen</h1></div>
-            <div className="menu-button diamond" onClick={ addClass}>
-            </div>          
+            <div className="menu">{props.children}</div>
+            <div>
+                <div className="diamond-border">
+                </div>
+                <div className="menu-button diamond " onClick={ addClass}>
+                </div>          
+            </div>
         </header>
-        <div className="menu">{props.children}</div>
     </>
 
     )
