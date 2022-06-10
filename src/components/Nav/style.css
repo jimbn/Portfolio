@@ -19,7 +19,7 @@
     pointer-events: all;
     transform: translateY(0);
     transform: translateX(0);  
-    background-color: rgba(0,0,0,0.9);      
+    background-color: rgba(0,0,0,0.9);
 }
 
 .nav {
@@ -31,7 +31,6 @@
     align-items: center;
     justify-content: center;
     z-index: 999;
-
 }
 
 .nav ul{
@@ -39,6 +38,9 @@
     flex-wrap: wrap;
     flex-direction: column;
     list-style: none;
+    border: 2px solid white;
+    border-radius: 500px;
+    padding: 2rem;
 }
 
 .nav ul li {

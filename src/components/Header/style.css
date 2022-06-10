@@ -50,6 +50,7 @@
     color: slategrey;
 }
 
+
 .diamond-border {
     width: 0;
     height: 0;
@@ -59,7 +60,6 @@
     top:-50px;
     overflow: visible;
 }
-
 
 .diamond-border:after { 
     content: ''; 
@@ -99,12 +99,11 @@
 
 .diamond:hover {
     border-bottom:  70px solid white;
-    animation: dHover 3s infinite;
+    animation: dHover 1.5s infinite;
 }
 
 .diamond:hover:after{
     border-top: 70px solid white;
-    animation: dHover 3s infinite;
-
+    animation: dHover 1.5s infinite;
 }
 

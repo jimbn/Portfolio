@@ -14,6 +14,10 @@
     width: 55%;
 }
 
+.About {
+    color: yellow;
+    text-shadow: 0 0 3px var(--diamond-border), 0 0 5px var(--diamond-color);
+}
 .home {
     background-size: cover;
     background-attachment: fixed;
