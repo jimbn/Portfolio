@@ -59,6 +59,8 @@
     position: relative;
     top:-50px;
     overflow: visible;
+    animation: dHover 3s infinite;
+
 }
 
 .diamond-border:after { 
@@ -69,6 +71,8 @@
     height: 0; 
     border: 55px solid transparent; 
     border-top: 75px solid var(--diamond-border); 
+    animation: dHover 3s infinite;
+
 }
   
 
@@ -99,11 +103,11 @@
 
 .diamond:hover {
     border-bottom:  70px solid white;
-    animation: dHover 1.5s infinite;
+    animation: dHover 2s infinite;
 }
 
 .diamond:hover:after{
     border-top: 70px solid white;
-    animation: dHover 1.5s infinite;
+    animation: dHover 2s infinite;
 }
 
