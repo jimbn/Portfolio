@@ -67,7 +67,7 @@
     position: relative;
     top:-50px;
     overflow: visible;
-    animation: dBHover 3s infinite;
+    animation: dBHover 2s infinite;
 
 }
 
@@ -79,7 +79,7 @@
     height: 0; 
     border: 55px solid transparent; 
     border-top: 75px solid var(--diamond-border); 
-    animation: dBHover 3s infinite;
+    animation: dBHover 2s infinite;
 
 }
   

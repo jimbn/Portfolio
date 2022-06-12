@@ -48,6 +48,7 @@
 }
 
 .darken-background {
+    transition: 1s;
     background-color: rgba(0,0,0,0.9);
 }
 
