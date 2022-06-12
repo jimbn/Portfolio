@@ -4,7 +4,7 @@ import me from './mePic.jpg';
 
 function About() {
     return (
-    <>
+    <div className='flex'>
         <div className="home">
             <div className='profile'>
                 <div>
@@ -30,7 +30,7 @@ function About() {
                 </p>
             </div>
         </div>
-    </>
+    </div>
     )
 }
 

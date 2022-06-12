@@ -12,6 +12,14 @@
     100% { opacity: .9;}
 }
 
+@keyframes dBHover {
+    0% { opacity: .9;}
+    25% { opacity: .75}
+    50% { opacity: .6;}
+    75% { opacity: .75}
+    100% { opacity: .9;}
+}
+
 .title{
     font-size: 2.5rem;
 }
@@ -50,6 +58,7 @@
     color: slategrey;
 }
 
+
 .diamond-border {
     width: 0;
     height: 0;
@@ -58,8 +67,9 @@
     position: relative;
     top:-50px;
     overflow: visible;
-}
+    animation: dBHover 3s infinite;
 
+}
 
 .diamond-border:after { 
     content: ''; 
@@ -69,6 +79,8 @@
     height: 0; 
     border: 55px solid transparent; 
     border-top: 75px solid var(--diamond-border); 
+    animation: dBHover 3s infinite;
+
 }
   
 
@@ -99,12 +111,11 @@
 
 .diamond:hover {
     border-bottom:  70px solid white;
-    animation: dHover 3s infinite;
+    animation: dHover 5s infinite;
 }
 
 .diamond:hover:after{
     border-top: 70px solid white;
-    animation: dHover 3s infinite;
-
+    animation: dHover 5s infinite;
 }
 

@@ -1,19 +1,26 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 .h2{
     font-size: 3rem;
     text-decoration: underline;
 }
+
 .About {
     padding: 2rem;
     font-size: 1.5rem;
+    width: 55%;
 }
 
+.About {
+    color: yellow;
+    text-shadow: 0 0 3px var(--diamond-border), 0 0 5px var(--diamond-color);
+}
 .home {
-    text-align: center;
-    flex-direction: column;
     background-size: cover;
     background-attachment: fixed;
-    justify-content: center;
-    flex-wrap: wrap;
     height: 100%;
 }
 
