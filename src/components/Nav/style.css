@@ -1,9 +1,20 @@
+@keyframes menuOpen {
+    0%{   
+        opacity: 0;   
+    }
+    50%{
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+    
 .menu{
     opacity: 0;
     pointer-events: none;
     transition: 1.5s;
-    transform: translateY(300rem);
-    /* transform: translateX(300rem); */
+    transform: translate(300rem, -300rem);
     display: flex;
     height: 100%;
     z-index: 8000;
@@ -11,14 +22,32 @@
     right: 0;
     left: 0;
     margin-right: auto;
-    margin-left: auto;  }
+    margin-left: auto;
+      
+}
+
+.background{
+    z-index:7999;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;  
+
+}
   
 .menu-open{
     opacity: 1;
     transition: 1.5s;
     pointer-events: all;
-    transform: translateY(0);
-    transform: translateX(0);  
+    transform: translate(0,0);
+    /* animation: menuOpen 1s; */
+}
+
+.darken-background {
     background-color: rgba(0,0,0,0.9);
 }
 
