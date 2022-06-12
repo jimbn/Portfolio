@@ -73,8 +73,9 @@
     padding: 2rem;
 }
 
-.nav ul li {
+.nav li {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .nav li:hover{
