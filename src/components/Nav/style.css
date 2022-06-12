@@ -26,18 +26,8 @@
       
 }
 
-.background{
-    z-index:7999;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;  
-
-}
+/* .background{
+} */
   
 .menu-open{
     opacity: 1;
@@ -48,6 +38,15 @@
 }
 
 .darken-background {
+    z-index:7999;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;  
     transition: 1s;
     background-color: rgba(0,0,0,0.9);
 }
