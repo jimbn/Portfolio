@@ -16,7 +16,7 @@ function Nav(props) {
   const removeClass=()=>{
     const menu = document.querySelector('.menu');
     const body = document.querySelector('body');
-    const background= document.querySelector('background');
+    const background= document.querySelector('.background');
 
     menu.classList.remove('menu-open');
     body.classList.remove('hide-overflow');

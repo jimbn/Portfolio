@@ -19,6 +19,7 @@ main {
   box-sizing: border-box;
   font-family:Georgia, 'Times New Roman', Times, serif;
   z-index: 5;
+  transition: 1s;
 }
 
 html,
@@ -42,7 +43,6 @@ body {
 
 code {
       font-family:Georgia, 'Times New Roman', Times, serif;
-
 }
 
 h2{
