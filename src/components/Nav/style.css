@@ -48,7 +48,7 @@
     margin-right: auto;
     margin-left: auto;  
     transition: 1s;
-    background-color: rgba(0,0,0,0.9);
+    background-image: linear-gradient(rgba(16, 9, 25,.9), rgba(28, 17, 51,.9));
 }
 
 .nav {
@@ -67,8 +67,8 @@
     flex-wrap: wrap;
     flex-direction: column;
     list-style: none;
-    border: 2px solid white;
-    border-radius: 500px;
+    border: .13rem solid var(--diamond-color);
+    border-radius: 5rem;
     padding: 2rem;
 }
 
@@ -79,4 +79,5 @@
 
 .nav li:hover{
     color: white;
+    font-size: larger;
 }
