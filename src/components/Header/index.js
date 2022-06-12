@@ -9,7 +9,7 @@ function Header (props) {
 
         const menu = document.querySelector('.menu');
         const body = document.querySelector('body');
-        const background = document.querySelector('background');
+        const background = document.querySelector('.background');
 
         if(menuOpen){
             menu.classList.add('menu-open');

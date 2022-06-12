@@ -3,10 +3,6 @@
     justify-content: space-between;
 }
 
-.h2{
-    font-size: 3rem;
-    text-decoration: underline;
-}
 
 .About {
     padding: 2rem;
@@ -15,8 +11,11 @@
 }
 
 .About {
-    color: yellow;
-    text-shadow: 0 0 3px var(--diamond-border), 0 0 5px var(--diamond-color);
+    color: var(--text-color);
+    text-shadow: var(--text-shadow), var(--text-shadow-highlight);
+    background-image: linear-gradient(rgba(16, 9, 25,.8), rgba(28, 17, 51,.8));
+    border-radius: 3rem;
+    
 }
 .home {
     background-size: cover;

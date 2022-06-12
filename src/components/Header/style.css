@@ -4,7 +4,7 @@
     20% { opacity: 0.6;}
     30% { opacity: 0.4;}
     40% { opacity: 0.2}
-    50% { opacity: 0;}
+    50% { opacity: 0.4;}
     60% { opacity: 0.2;}
     70% { opacity: 0.4;}
     80% { opacity: 0.6;}
@@ -63,11 +63,11 @@
     width: 0;
     height: 0;
     border: 55px solid transparent;
-    border-bottom: 75px solid var(--diamond-border);
+    border-bottom: 75px solid var(--diamond-color);
     position: relative;
     top:-50px;
     overflow: visible;
-    animation: dBHover 3s infinite;
+    animation: dBHover 2s infinite;
 
 }
 
@@ -79,7 +79,7 @@
     height: 0; 
     border: 55px solid transparent; 
     border-top: 75px solid var(--diamond-border); 
-    animation: dBHover 3s infinite;
+    animation: dBHover 2s infinite;
 
 }
   
@@ -88,13 +88,16 @@
     width: 0;
     height: 0;
     border: 50px solid transparent;
-    border-bottom: 70px solid var(--diamond-color);
+    border-bottom: 70px solid var(--diamond-border);
     position: absolute;
     top:-32px;
     right:37px;
     z-index: 20;
     display: flex;
     opacity: .7;
+    transform: rotateY(50deg);
+    animation: dBHover 2s infinite;
+
 }
 
 
@@ -107,11 +110,14 @@
   border: 50px solid transparent; 
   border-top: 70px solid var(--diamond-color); 
   z-index:20;
+  animation: dBHover 2s infinite;
+
 }
 
 .diamond:hover {
     border-bottom:  70px solid white;
     animation: dHover 5s infinite;
+    cursor: pointer;
 }
 
 .diamond:hover:after{

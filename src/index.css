@@ -1,7 +1,7 @@
 :root {
-  --text-color: rgb(156, 151, 253);
-  --text-shadow-highlight: 0 2px 3px #191627;
-  --text-shadow: 0 0 5px white;
+  --text-color: rgb(175, 121, 232);
+  --text-shadow-highlight: 0 2px 3px rgb(43,25,73);
+  --text-shadow: 0 0 5px rgb(28,17,51);
   --diamond-color: rgb(46, 43, 114);
   --diamond-border: rgb(150, 137, 225)
 }
@@ -17,8 +17,13 @@ main {
 
 * {
   box-sizing: border-box;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Century Gothic,  'Times New Roman', Times, serif;
   z-index: 5;
+  transition: 1s;
+}
+
+.transition-none{
+  transition: none;
 }
 
 html,
@@ -30,26 +35,20 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./assets/vecteezy_network-communications-banner-with-low-poly-design_2416021/network_communications_banner_with_low_poly_design_0803_generated.jpg');
   color: var(--text-color);
-  text-shadow: var(--text-shadow), var(--text-shadow-highlight);
-}
+ }
 
-code {
-      font-family:Georgia, 'Times New Roman', Times, serif;
-
-}
 
 h2{
   font-size: 2.5rem;
   text-decoration: underline;
   justify-content: center;
   display: flex;
+  font-family: Copperplate Gothic Light,  'Times New Roman', Times, serif;
+
 }
 
 .wrapper {
