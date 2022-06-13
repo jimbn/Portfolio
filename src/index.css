@@ -48,6 +48,7 @@ h2{
   justify-content: center;
   display: flex;
   font-family: Copperplate Gothic Light,  'Times New Roman', Times, serif;
+  text-shadow: var(--text-shadow), var(--text-shadow-highlight);
 
 }
 
