@@ -11,31 +11,32 @@ function Project () {
         {
             name: 'Party Hearty',
             description: 'Third Project',
-            language: "HTML, CSS, JS",
-            library: "mongoose, graphql, react, express, node, MaterialUi, leaflet, bootstrap",
+            language: "JavaScript",
+            tools: ["MongodDb", "Express.js", "React", "Node.js", "GraphQL", "Leaflet",
+        "Geosearch", "React-Bootstrap", "Material UI", "Heroku"],
             gitHub: 'https://github.com/sammcowen/party_hearty',
             site: "https://stormy-thicket-02132.herokuapp.com/",
             image: PartyHearty,
         },
         {
-            name: "Human's Best Friend",
-            description: "First project.",
-            language: "HTML, CSS, JS",
-            library: "MD Bootstrap",
-            gitHub:'https://github.com/jimbn/Project-01',
-            site: "https://jimbn.github.io/Project-01/",
-            image: BestFriend,
-        },
-        {
             name: "Only_Friends",
             description: "Second projecct",
-            language: "HTML, CSS, JS",
-            library: "MySql2, Express, Node, Multer, Handlebars",
+            language: "JavaScript",
+            tools: ["SQL", "Express.js", "Node.js", "Handlebars.js", "Multer", "Heroku"],
             gitHub:'https://github.com/MCORTEZM1/Only_Friends',
             site: "https://only-friendz.herokuapp.com/",
             image: OnlyFriend,
         },
-            
+        {
+            name: "Human's Best Friend",
+            description: "First project.",
+            language: "JavaScript",
+            tools: ["MD Bootstrap", "Third-Party APIs"],
+            gitHub:'https://github.com/jimbn/Project-01',
+            site: "https://jimbn.github.io/Project-01/",
+            image: BestFriend,
+        },
+
         
     ];
 
@@ -55,7 +56,9 @@ function Project () {
                         <div>
                             <h1>{array.name}</h1>
                             <h3><span>{array.language}</span></h3>
-                            <h3><span>{array.library}</span></h3>
+                            <h4 className="tool-list"><ul>
+                                {array.tools.map((tools) =><li>{tools}</li>)}
+                            </ul></h4>
                         </div>
                         <div className="flex">
                             <div >
