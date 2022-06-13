@@ -19,16 +19,17 @@ main {
   box-sizing: border-box;
   font-family: Century Gothic,  'Times New Roman', Times, serif;
   z-index: 5;
-  transition: 1s;
 }
 
 .transition-none{
   transition: none;
 }
+
 .flex{
   display: flex;
   justify-content: space-between;
 }
+
 bold{
   font-weight: bolder;
 }

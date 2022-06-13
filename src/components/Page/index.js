@@ -30,7 +30,9 @@ function Page({ currentPage }) {
   return (
     <section>
       <h2>{capitalizeFirstLetter(currentPage.name)}</h2>
+      <div className="">
       <PageContent>{renderPage()}</PageContent>
+      </div>
     </section>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
-import './style.css'
+
+import './style.css';
 
 
 function Resume() {
@@ -7,7 +8,7 @@ function Resume() {
     <section className="resume">
       <div className='resume-dl'>
         <h5>
-          Download my <a href="https://www.linkedin.com/in/jim-nguyen-342798121/">resume</a>
+          Download my <a href='./assets/Resume_JimBuiNguyen.pdf' Download='Resume_JimBuiNguyen.pdf'>resume</a>
         </h5>
       </div>
       <div>
