@@ -7,7 +7,8 @@ import gmailPic from './gmail.jpg';
 
 function Footer () {
     return(
-    <section className="contact">
+    <div className="footer">
+    <div className="contact">
         <ul > 
             <li>
                 <a href="https://github.com/jimbn">
@@ -25,7 +26,9 @@ function Footer () {
                 </a>
             </li>
         </ul>
-    </section>
+    </div>
+
+    </div>
     );
 };
 
