@@ -39,7 +39,7 @@
   padding: 2rem;
   z-index: 900;
   opacity: 0;
-  transition: 0.3s ;
+  transition: 0.5s ;
 } 
 
 .project-text h1{ text-decoration: underline;}
