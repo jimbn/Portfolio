@@ -1,94 +1,115 @@
 
 .accordian{
-    display: flex;
-    width: 100%;
-    padding: 4% 2%;
-    box-sizing: border-box;
-    height: 100%;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .accordian-item{
-    flex: 1;
-    overflow: hidden;
-    transition: .5s;
-    flex-wrap: wrap;
-    position: relative;
-    width: 100%;
-    max-width: 20rem;
-    height: 10rem;
-    margin: 0 .5rem;
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  max-width: 20rem;
+  height: 10rem;
+  margin: 0 .5rem;
 }
 
 .accordian-item > img {
-    width: 100%;
-    height: 50%;
-    object-fit: cover; 
-    transition: .5s;
-  }
+  width: 100%;
+  height: 50%;
+  object-fit: cover; 
+  transition: .5s;
+}
   
-  .project-text {
-    color: slategrey;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    padding: 50px;
-    z-index: 900;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-  }
+.project-text {
+  color: val(--text-color);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 50px;
+  z-index: 900;
+  opacity: 0;
+  transition: 0.3s ;
+} 
+
+.project-text h1{ text-decoration: underline;}
+
+.tool-list {
+  width: 100%;
+  height: 5rem;
+}
+
+
+.tool-list ul{
+  width: 100%;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.tool-list li {
+  padding: 5px;
+}
+
+.project-text:hover {
+  background-image: linear-gradient(rgba(16, 9, 25,.9), rgba(28, 17, 51,.9));
+  opacity: 1;
+  border: 3px solid var(--diamond-border);
+  border-radius: 1rem;
+}
+
+.project-text a {
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+  transition: all 0.3s ease-in-out;
+}
   
-  .project-text:hover {
-    background-color: rgba(0,0,0, .9);
-    opacity: 1;
-    border: 3px solid var(--diamond-border);
-    border-radius: 1rem;
-  }
-  .project-text a {
-    text-decoration: none;
-    font-weight: bold;
-    color: grey;
-    transition: all 0.3s ease-in-out;
-  }
+.project-text a:hover {
+  color: white;
+  text-shadow: 5px 2px 10px rgba(0, 0, 0, .75);
+  font-weight: bolder;
+}
   
-  .project-text a:hover {
-    color: white;
-    text-shadow: 5px 2px 10px rgba(0, 0, 0, .75);
-    font-weight: bolder;
-  }
+.gitIcon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+}
   
-  .gitIcon {
-    width: 2rem;
-    height: 2rem;
-    border-radius: 2rem;
-  }
-  
-  .gitIcon:hover {
-    width: 3rem;
-    height:3rem;
-  }
+.gitIcon:hover {
+  width: 3rem;
+  height:3rem;
+}
 
   
-  .accordian-item > span {
-    font-size: 3.8vh;
-    display: block;
-    text-align: center;
-    height: 10vh;
-    line-height: 2.6;
-  }
+/* .accordian-item > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+} */
   
 
 .accordian-item:hover { 
-    flex: 5 1 100%; 
-    max-width: 50rem;
-    height: 25rem;
-
+  flex: 5 1 100%; 
+  max-width: 50rem;
+  height: 25rem;
 }
+
 .accordian-item:hover > img {
   width: 100%;
   height: 100%;
