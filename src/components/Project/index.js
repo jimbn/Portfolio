@@ -44,9 +44,9 @@ function Project () {
 
     return (
         <>
-        <div className="flex">
+        <div className="flex accordian">
             {array.map((array) =>(
-                <div className='project'>
+                <div className='project accordian-item'>
                     <img 
                         src={array.image}
                         alt={array.name}
@@ -55,8 +55,8 @@ function Project () {
                     <div className ="project-text">
                         <div>
                             <h1>{array.name}</h1>
-                            <h3>{array.language}</h3>
-                            <h3>{array.library}</h3>
+                            <h3><span>{array.language}</span></h3>
+                            <h3><span>{array.library}</span></h3>
                         </div>
                         <div className="flex">
                             <div >
