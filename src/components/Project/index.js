@@ -46,7 +46,7 @@ function Project () {
         <>
         <div className="accordian">
             {array.map((array) =>(
-                <div className='project accordian-item'>
+                <div className='accordian-item'>
                     <img 
                         src={array.image}
                         alt={array.name}
