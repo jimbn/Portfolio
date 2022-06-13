@@ -1,6 +1,7 @@
 .resume-dl{
   display: flex;
   justify-content: center;
+  font-size: large;
 }
 
 .resume h5{
@@ -26,4 +27,13 @@
 
 .resume span{
   font-weight: lighter;
+}
+
+.resume-dl a {
+  text-decoration: none;
+}
+
+.resume-dl a:hover {
+  color: white;
+  /* font-size: larger; */
 }
