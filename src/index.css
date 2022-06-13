@@ -25,6 +25,13 @@ main {
 .transition-none{
   transition: none;
 }
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+bold{
+  font-weight: bolder;
+}
 
 html,
 body {
