@@ -38,7 +38,7 @@
   bottom: 0px;
   left: 0px;
   right: 0px;
-  padding: 50px;
+  padding: 2rem;
   z-index: 900;
   opacity: 0;
   transition: 0.3s ;
@@ -65,6 +65,13 @@
   padding: 5px;
 }
 
+.bottom {
+  bottom: 5%;
+  width: 90%;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+}
 .project-text:hover {
   background-image: linear-gradient(rgba(16, 9, 25,.9), rgba(28, 17, 51,.9));
   opacity: 1;
@@ -75,7 +82,7 @@
 .project-text a {
   text-decoration: none;
   font-weight: bold;
-  color: grey;
+  color: var(--text-color);
   transition: all 0.3s ease-in-out;
 }
   
@@ -95,16 +102,6 @@
   width: 3rem;
   height:3rem;
 }
-
-  
-/* .accordian-item > span {
-  font-size: 3.8vh;
-  display: block;
-  text-align: center;
-  height: 10vh;
-  line-height: 2.6;
-} */
-  
 
 .accordian-item:hover { 
   flex: 5 1 100%; 

@@ -54,13 +54,16 @@ function Project () {
                     />
                     <div className ="project-text">
                         <div>
-                            <h1>{array.name}</h1>
-                            <h3><span>{array.language}</span></h3>
-                            <h4 className="tool-list"><ul>
+                            <div className="flex">
+                                <h1>{array.name}</h1>
+                                <h3>{array.language}</h3>
+                            </div>
+                            <h4>{array.description}</h4>
+                            <h5 className="tool-list"><ul>
                                 {array.tools.map((tools) =><li>{tools}</li>)}
-                            </ul></h4>
+                            </ul></h5>
                         </div>
-                        <div className="flex">
+                        <div className="flex bottom">
                             <div >
                                 <a href = {array.gitHub}>
                                     <img className="gitIcon" src={gitPic} alt="GitHub Icon" /> 
