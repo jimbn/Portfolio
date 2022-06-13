@@ -11,6 +11,7 @@
 }
 
 .accordian-item{
+
   flex: 1;
   overflow: hidden;
   transition: .5s;
@@ -20,6 +21,7 @@
   max-width: 20rem;
   height: 10rem;
   margin: 0 .5rem;
+
 }
 
 .accordian-item > img {
