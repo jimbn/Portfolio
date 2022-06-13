@@ -31,7 +31,7 @@
   
 .menu-open{
     opacity: 1;
-    transition: 1.5s;
+    transition: 1s;
     pointer-events: all;
     transform: translate(0,0);
     /* animation: menuOpen 1s; */
