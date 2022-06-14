@@ -7,10 +7,11 @@ import gmailPic from './gmail.jpg';
 
 function Footer () {
     return(
-    <section className="contact">
+    <div className="footer">
+    <div className="contact">
         <ul > 
             <li>
-                <a href="https://github.com/jimbn">
+                <a href="https://github.com/jimbn" target="blank">
                     <img src={gitPic} alt="GitHub Icon" /> 
                 </a>
             </li>
@@ -20,12 +21,14 @@ function Footer () {
                 </a>
             </li>           
             <li>
-                <a href="https://www.linkedin.com/in/jim-nguyen-342798121?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BsUgtgtIT5axyqFwuc12Wg%3D%3D">
+                <a href="https://www.linkedin.com/in/jim-nguyen-342798121?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BsUgtgtIT5axyqFwuc12Wg%3D%3D" target="blank">
                     <img src={linkPic} alt="Linkedin Icon" /> 
                 </a>
             </li>
         </ul>
-    </section>
+    </div>
+
+    </div>
     );
 };
 

@@ -1,0 +1,39 @@
+.resume-dl{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+
+.resume h5{
+  background-image: linear-gradient(rgba(16, 9, 25,.7), rgba(28, 17, 51,.7));
+  border-radius: 2rem;
+  padding: 0 0.5rem;
+}
+
+.resume-flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.resume-background{
+  background-image: linear-gradient(rgba(16, 9, 25,.7), rgba(28, 17, 51,.7));
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.resume-background h3{
+  text-decoration: underline;
+}
+
+.resume span{
+  font-weight: lighter;
+}
+
+.resume-dl a {
+  text-decoration: none;
+}
+
+.resume-dl a:hover {
+  color: white;
+  /* font-size: larger; */
+}

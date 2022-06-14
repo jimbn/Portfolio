@@ -1,20 +1,21 @@
-.h2{
-    font-size: 3rem;
-    text-decoration: underline;
-}
+
+
 .About {
     padding: 2rem;
     font-size: 1.5rem;
+    width: 55%;
 }
 
+.About {
+    color: var(--text-color);
+    text-shadow: var(--text-shadow), var(--text-shadow-highlight);
+    background-image: linear-gradient(rgba(16, 9, 25,.8), rgba(28, 17, 51,.8));
+    border-radius: 3rem;
+    
+}
 .home {
-    text-align: center;
-    flex-direction: column;
-    background: black no-repeat center fixed;
     background-size: cover;
     background-attachment: fixed;
-    justify-content: center;
-    flex-wrap: wrap;
     height: 100%;
 }
 
@@ -26,7 +27,6 @@
     width: 300px;
     height: 300px;
     border: 2px solid;
-    color: rgba(0, 0, 0, .25);
     border-radius: 75%;
 }
 

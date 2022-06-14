@@ -13,18 +13,29 @@ function Nav(props) {
     document.title = capitalizeFirstLetter(currentPage.name);
   }, [currentPage]);
 
+  const removeClass=()=>{
+    const menu = document.querySelector('.menu');
+    const body = document.querySelector('body');
+    const background= document.querySelector('.background');
+
+    menu.classList.remove('menu-open');
+    body.classList.remove('hide-overflow');
+    background.classList.remove('darken-background');
+
+  }
+
   return (    
       <nav className='nav'>
-        <ul className="flex-row">
+        <ul className="">
           {pages.map((Page) => (
             <li
-              className={`mx-5 ${
+              className={`transition-none ${
                 currentPage.name === Page.name && 'navActive'
                 }`}
               key={Page.name}
             >
               <span
-                onClick={() => setCurrentPage(Page)}
+                onClick={() => setCurrentPage(Page) & removeClass()}
               >
                 {capitalizeFirstLetter(Page.name)}
               </span>
