@@ -34,6 +34,7 @@
     transition: 1s;
     pointer-events: all;
     transform: translate(0,0);
+    
     /* animation: menuOpen 1s; */
 }
 
@@ -60,6 +61,7 @@
     align-items: center;
     justify-content: center;
     z-index: 999;
+    
 }
 
 .nav ul{
@@ -69,7 +71,11 @@
     list-style: none;
     border: .13rem solid var(--diamond-color);
     border-radius: 5rem;
+    width: 15%;
+    height: 20.5%;
     padding: 2rem;
+    background-image: linear-gradient(rgba(16, 9, 25,1), rgba(28, 17, 51,1));
+
 }
 
 .nav li {
