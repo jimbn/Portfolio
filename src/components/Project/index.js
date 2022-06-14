@@ -65,13 +65,13 @@ function Project () {
                         </div>
                         <div className="flex bottom">
                             <div >
-                                <a href = {array.gitHub}>
+                                <a href = {array.gitHub} target="blank">
                                     <img className="gitIcon" src={gitPic} alt="GitHub Icon" /> 
                                 </a> 
                             </div>
                             <br></br>
                             <div>
-                                <a href = {array.site}>
+                                <a href = {array.site} target="blank">
                                     Visit Site
                                 </a>
                             </div>
