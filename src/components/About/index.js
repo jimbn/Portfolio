@@ -4,8 +4,8 @@ import me from './mePic.jpg';
 
 function About() {
     return (
-    <div className='flex'>
-        <div className="home">
+    <div className='flex about'>
+        <div>
             <div className='profile'>
                 <div>
                     <div className="profile-pic"> 
@@ -14,7 +14,7 @@ function About() {
                 </div>
             </div>
         </div>
-        <div className="About">
+        <div className="about-description">
             <div>
                 <p>
                     Full stack web  developer focusing on MERN stack. Recently completed and earned a certificate

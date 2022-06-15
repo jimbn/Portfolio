@@ -1,31 +1,26 @@
-
-
-.About {
-    padding: 2rem;
-    font-size: 1.5rem;
-    width: 55%;
+.about {
+    margin-top: 15rem;
 }
 
-.About {
+.about-description {
     color: var(--text-color);
     text-shadow: var(--text-shadow), var(--text-shadow-highlight);
     background-image: linear-gradient(rgba(16, 9, 25,.8), rgba(28, 17, 51,.8));
     border-radius: 3rem;
-    
-}
-.home {
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100%;
+    padding: 2rem;
+    width: 55%;
+    height: fit-content;
 }
 
 .profile {
-    margin: 4em 0;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 10rem;
 }
 
 .profile-pic img {
-    width: 300px;
-    height: 300px;
+    width: 35rem;
+    height: 35rem;
     border: 2px solid;
     border-radius: 75%;
 }

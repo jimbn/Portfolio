@@ -14,7 +14,7 @@ function Page({ currentPage }) {
     switch (currentPage.name) {
       case'Welcome':
         return <Welcome />
-      case 'About Me':
+      case 'About':
         return <About />;
       case 'Project':
         return <Project />;
@@ -30,7 +30,7 @@ function Page({ currentPage }) {
   return (
     <section>
       <h2>{capitalizeFirstLetter(currentPage.name)}</h2>
-      <div className="">
+      <div className="page-content">
       <PageContent>{renderPage()}</PageContent>
       </div>
     </section>

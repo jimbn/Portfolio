@@ -3,8 +3,10 @@
   --text-shadow-highlight: 0 2px 3px rgb(43,25,73);
   --text-shadow: 0 0 5px rgb(28,17,51);
   --diamond-color: rgb(46, 43, 114);
-  --diamond-border: rgb(150, 137, 225)
+  --diamond-border: rgb(150, 137, 225);
+  font-size: 62.5%;
 }
+
 main {
   margin: 0 auto;
   max-width: 90%;
@@ -19,6 +21,7 @@ main {
   box-sizing: border-box;
   font-family: Century Gothic,  'Times New Roman', Times, serif;
   z-index: 5;
+  font-size: 4rem;
 }
 
 .transition-none{
@@ -47,23 +50,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./assets/vecteezy_network-communications-banner-with-low-poly-design_2416021/network_communications_banner_with_low_poly_design_0803_generated.jpg');
   color: var(--text-color);
- }
+}
 
+h2{font-size: 1.5em;}
+.nav, .project-text h1, .resume a, .experience bold, .resume-background h3{font-size: 1em;}
+.project-text h3, .project-text a, .experience h4 {font-size: .75em;}
+.experience span {font-size: smaller;}
+.about p, .experience p, .resume-proficiencies li{font-size: .55em;}
+.project-text h4, .resume h5 {font-size: .4em;}
+.tool-list li {font-size: .3em;}
 
 h2{
-  font-size: 2.5rem;
   text-decoration: underline;
   justify-content: center;
   display: flex;
   font-family: Copperplate Gothic Light,  'Times New Roman', Times, serif;
   text-shadow: var(--text-shadow), var(--text-shadow-highlight);
-
 }
 
-.wrapper {
-  height:100%;
-}
- 
+
 img {
   max-width: 100%;
 }

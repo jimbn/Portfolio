@@ -20,15 +20,9 @@
     100% { opacity: .9;}
 }
 
-.title{
-    font-size: 2.5rem;
-}
 .header-style {
     padding: .5rem 2rem;
-    /* background-image: linear-gradient(rgb(112, 128, 144),rgb(192, 192, 192)); */
-    /* border-bottom: 1px solid rgba(192, 192, 192, 0.5);; */
     display: flex;
-    /* flex-wrap: wrap; */
     position: fixed;
     position: -webkit-sticky;
     top: 0;
@@ -37,35 +31,15 @@
     z-index: 9000;
 }
 
-.header-nav {
-    text-indent: 15px;
-    font-size: 2rem;
-    text-shadow: 5px 2px 10px rgba(0, 0, 0, .75);
-}
-
-.header-nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-.header-nav a {
-    text-decoration: none;
-    color: black;
-}
-
-.header-nav a:hover{
-    color: slategrey;
-}
 
 
 .diamond-border {
     width: 0;
     height: 0;
-    border: 55px solid transparent;
-    border-bottom: 75px solid var(--diamond-color);
+    border: 5.5rem solid transparent;
+    border-bottom: 7.5rem solid var(--diamond-color);
     position: relative;
-    top:-50px;
+    top: 1rem;
     overflow: visible;
     animation: dBHover 2s infinite;
 
@@ -74,11 +48,11 @@
 .diamond-border:after { 
     content: ''; 
     position: absolute; 
-    left: -55px; top: 75px; 
+    left: -5.5rem; top: 7.5rem; 
     width: 0;  
     height: 0; 
-    border: 55px solid transparent; 
-    border-top: 75px solid var(--diamond-border); 
+    border: 5.5rem solid transparent; 
+    border-top: 7.5rem solid var(--diamond-border); 
     animation: dBHover 2s infinite;
 
 }
@@ -87,11 +61,11 @@
 .diamond {
     width: 0;
     height: 0;
-    border: 50px solid transparent;
-    border-bottom: 70px solid var(--diamond-border);
+    border: 5.5rem solid transparent;
+    border-bottom: 7.5rem solid var(--diamond-border);
     position: absolute;
-    top:-32px;
-    right:37px;
+    top:1.5rem;
+    right: 2rem;
     z-index: 20;
     display: flex;
     opacity: .7;
@@ -104,24 +78,24 @@
 .diamond:after { 
   content: ''; 
   position: absolute; 
-  left: -50px; top: 70px; 
+  left: -5.5rem; top: 7.5rem; 
   width: 0;  
   height: 0; 
-  border: 50px solid transparent; 
-  border-top: 70px solid var(--diamond-color); 
+  border: 5.5rem solid transparent; 
+  border-top: 7.5rem solid var(--diamond-color); 
   z-index:20;
   animation: dBHover 2s infinite;
 
 }
 
 .diamond:hover {
-    border-bottom:  70px solid white;
+    border-bottom:  7.5rem solid white;
     animation: dHover 5s infinite;
     cursor: pointer;
 }
 
 .diamond:hover:after{
-    border-top: 70px solid white;
+    border-top: 7.5rem solid white;
     animation: dHover 5s infinite;
 }
 

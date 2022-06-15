@@ -25,7 +25,7 @@ function Resume() {
       <div className="resume-flex">
         <div className="resume-background">
           <h3>Front-end Proficiencies</h3>
-          <ul className="">
+          <ul className="resume-proficiencies">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -37,7 +37,7 @@ function Resume() {
         </div>
         <div className="resume-background">
           <h3>Back-end Proficiencies</h3>
-          <ul className="">
+          <ul className="resume-proficiencies">
             <li>APIs</li>
             <li>Node</li>
             <li>Express</li>
