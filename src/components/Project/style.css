@@ -10,12 +10,14 @@
 }
 
 .accordian-item{
+
   flex: 1;
   overflow: hidden;
   transition: .5s;
   flex-wrap: wrap;
   position: relative;
   width: 100%;
+
   max-width: 7em;
   height: 4em;
   margin: 0 .1em;
