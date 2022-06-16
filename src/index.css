@@ -57,8 +57,8 @@ h2{font-size: 1.5em;}
 .project-text h3, .project-text a, .experience h4 {font-size: .75em;}
 .experience span {font-size: smaller;}
 .about p, .experience p, .resume-proficiencies li{font-size: .55em;}
-.project-text h4, .resume h5 {font-size: .4em;}
-.tool-list li {font-size: .3em;}
+.project-text h4, .resume h5, .tool-list li  {font-size: .4em;}
+
 
 h2{
   text-decoration: underline;

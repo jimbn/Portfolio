@@ -17,10 +17,12 @@ function Nav(props) {
     const menu = document.querySelector('.menu');
     const body = document.querySelector('body');
     const background= document.querySelector('.background');
+    const footer = document.querySelector('.footer');
 
     menu.classList.remove('menu-open');
     body.classList.remove('hide-overflow');
     background.classList.remove('darken-background');
+    footer.classList.remove('footer-open');
 
   }
 
