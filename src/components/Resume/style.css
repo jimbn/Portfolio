@@ -1,13 +1,11 @@
 .resume-dl{
   display: flex;
   justify-content: center;
-  font-size: large;
 }
 
 .resume h5{
   background-image: linear-gradient(rgba(16, 9, 25,.7), rgba(28, 17, 51,.7));
   border-radius: 2rem;
-  padding: 0 0.5rem;
 }
 
 .resume-flex{
@@ -17,16 +15,13 @@
 
 .resume-background{
   background-image: linear-gradient(rgba(16, 9, 25,.7), rgba(28, 17, 51,.7));
-  border-radius: 2rem;
-  padding: 1rem;
+  border-radius:1rem;
+  padding: 0.2rem 5rem;
 }
 
 .resume-background h3{
   text-decoration: underline;
-}
-
-.resume span{
-  font-weight: lighter;
+  margin: 0;
 }
 
 .resume-dl a {
@@ -35,5 +30,4 @@
 
 .resume-dl a:hover {
   color: white;
-  /* font-size: larger; */
 }

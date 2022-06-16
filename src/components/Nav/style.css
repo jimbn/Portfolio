@@ -1,20 +1,8 @@
-@keyframes menuOpen {
-    0%{   
-        opacity: 0;   
-    }
-    50%{
-    }
-    100%{
-        opacity: 1;
-    }
-
-}
-    
 .menu{
     opacity: 0;
     pointer-events: none;
     transition: 1.5s;
-    transform: translate(300rem, -300rem);
+    transform: translate(300em, -300em);
     display: flex;
     height: 100%;
     z-index: 8000;
@@ -23,19 +11,14 @@
     left: 0;
     margin-right: auto;
     margin-left: auto;
-      
+    
 }
 
-/* .background{
-} */
-  
 .menu-open{
     opacity: 1;
     transition: 1s;
     pointer-events: all;
     transform: translate(0,0);
-    
-    /* animation: menuOpen 1s; */
 }
 
 .darken-background {
@@ -54,7 +37,6 @@
 
 .nav {
     text-indent: 15px;
-    font-size: 2rem;
     width: 100%;
     height: 100%;
     display: flex;
@@ -70,12 +52,9 @@
     flex-direction: column;
     list-style: none;
     border: .13rem solid var(--diamond-color);
-    border-radius: 5rem;
-    width: 15%;
-    height: 20.5%;
-    padding: 2rem;
+    border-radius: 50rem;
+    padding: 3rem;
     background-image: linear-gradient(rgba(16, 9, 25,1), rgba(28, 17, 51,1));
-
 }
 
 .nav li {

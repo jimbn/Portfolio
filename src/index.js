@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './media_mw1300.css';
+import './media_mw0820.css';
+import './media_mw0390.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

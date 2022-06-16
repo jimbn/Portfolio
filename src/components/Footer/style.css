@@ -1,35 +1,39 @@
 .footer {
-    padding: .5rem 2rem;
     display: flex;
+    pointer-events: none;
     position: absolute;
-    bottom: 0%;
-    width: 100%;
-    z-index: 100;
     justify-content: center;
+    opacity: 0;
+    transition: .92s;
+    transform: translateY(-300em);
+    margin-right: .5em;
+}
+
+.footer-open{ 
+    opacity: 1;
+    pointer-events: all;
+    transform: translate(0,0);
 }
 
 .contact {
-    padding: .5rem 2rem;
     display:flex;
-    bottom: 2rem;
-    align-items: center;
-    flex-direction: column; 
-    height: auto;
+    justify-content: space-evenly;
 }
 
 .contact ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     text-indent: 10px;
-
 }
 
 .contact img {
-    width: 3rem;
-    height: 3rem;
+    width: 1.75em;
+    height: 1.75em;
 }
 
 .contact img:hover {
-    width: 4rem;
-    height: 4rem;
+    width: 2em;
+    height: 2em;
 }
+

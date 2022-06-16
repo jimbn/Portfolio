@@ -1,15 +1,13 @@
 import React, { useState } from "react";
-import './App.css'
 import Header from './components/Header';
 import Page from './components/Page';
-import Footer from './components/Footer';
 import Nav from './components/Nav';
 
 
 function App() {
 
     const [pages] = useState ([
-        { name: "About Me" },
+        { name: "About" },
         { name: "Project" },
         { name: "Resume" }
       ]);
@@ -29,7 +27,6 @@ function App() {
           <main>
               <Page currentPage={currentPage}></Page>
           </main>
-          <Footer/>
         </div>
     )
 }
