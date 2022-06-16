@@ -53,9 +53,7 @@
     list-style: none;
     border: .13rem solid var(--diamond-color);
     border-radius: 50rem;
-    width: 12%;
-    height: 22%;
-    padding: 2rem;
+    padding: 3rem;
     background-image: linear-gradient(rgba(16, 9, 25,1), rgba(28, 17, 51,1));
 }
 

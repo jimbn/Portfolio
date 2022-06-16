@@ -8,7 +8,7 @@ function Resume() {
     <section className="resume">
       <div className='resume-dl'>
         <h5>
-          Download my <a href='./assets/Resume_JimBuiNguyen.pdf' Download='Resume_JimBuiNguyen.pdf'>resume</a>
+          Download my <a href='./assets/Resume_JimBuiNguyen.pdf' download='Resume_JimBuiNguyen.pdf'>resume</a>
         </h5>
       </div>
       <div>
@@ -17,7 +17,7 @@ function Resume() {
           <ul className='experience'>
             <li>
               <h4> University of California, Berkeley, Coding Bootcamp - <span>Full Stack Developer Certification</span></h4>
-              <p> December 2021 - June 2022 (<bold>Completed</bold>)</p>
+              <p> December 2021 - June 2022 (Completed)</p>
             </li>
           </ul>
         </div>
