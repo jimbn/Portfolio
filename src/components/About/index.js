@@ -4,6 +4,9 @@ import me from './mePic.jpg';
 
 function About() {
     return (
+    <>
+    <h2>Jim Bui Nguyen</h2>
+
     <div className='flex about'>
         <div>
             <div className='profile'>
@@ -17,7 +20,7 @@ function About() {
         <div className="about-description">
             <div>
                 <p>
-                    Full stack web  developer focusing on MERN stack. Recently completed and earned a certificate
+                    I'm a driven full stack developer focusing on MERN stack. Recently completed and earned a certificate
                     in Full Stack Web Development from University of California, Berkeley coding bootcamp. With my experience,
                     I enjoy learning and apply new concepts and knowledge to create and improve on various web
                     applications that implements CRUD.
@@ -31,6 +34,7 @@ function About() {
             </div>
         </div>
     </div>
+    </>
     )
 }
 

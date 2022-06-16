@@ -54,7 +54,7 @@ body {
 }
 
 h2{font-size: 1.5em;}
-.nav, .project-text h1, .resume a, .experience bold, .resume-background h3{font-size: 1em;}
+.nav, .project-text h1, .resume a, .experience bold, .resume-background h3, .profile h2{font-size: 1em;}
 .project-text h3, .project-text a, .experience h4 {font-size: .75em;}
 .experience span {font-size: smaller;}
 .about p, .experience p, .resume-proficiencies li{font-size: .55em;}
