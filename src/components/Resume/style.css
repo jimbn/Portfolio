@@ -16,7 +16,7 @@
 .resume-background{
   background-image: linear-gradient(rgba(16, 9, 25,.7), rgba(28, 17, 51,.7));
   border-radius:1rem;
-  padding: 0 .2rem;
+  padding: 0.2rem 5rem;
 }
 
 .resume-background h3{

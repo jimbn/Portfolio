@@ -3,10 +3,10 @@
     pointer-events: none;
     position: absolute;
     justify-content: center;
-    right: 2%;
     opacity: 0;
     transition: .92s;
     transform: translateY(-300em);
+    margin-right: .5em;
 }
 
 .footer-open{ 
