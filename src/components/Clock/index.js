@@ -53,14 +53,17 @@ function Clock() {
   return(
     <div className="background-clock">
       <div className="clock">
-        <div className="hours-container">
-          <div className="hours"></div>
+        <div className="seconds-container">
+          <div className="seconds"></div>
         </div>
         <div className="minutes-container">
           <div className="minutes"></div>
         </div>
-        <div className="seconds-container">
-          <div className="seconds"></div>
+        <div className="hours-container">
+          <div className="hours"></div>
+        </div>
+        <div className="center-container">
+          <div className="center"></div>
         </div>
       </div>
     </div>
