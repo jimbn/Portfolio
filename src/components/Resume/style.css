@@ -4,21 +4,12 @@
   padding: .5rem 0;
 }
 
-.resume h5{
-  /* background-image: linear-gradient(rgba(16, 9, 25,.7), rgba(28, 17, 51,.7)); */
-  border-radius: 2rem;
-}
-
-.resume-flex{
-  display: flex;
-  justify-content: space-evenly;
-  padding: .5rem 0;
+.resume h3{
+  padding-bottom: 0.5rem;
 }
 
 .resume-background{
-  /* background-image: linear-gradient(rgba(16, 9, 25,.7), rgba(28, 17, 51,.7)); */
-  border-radius:1rem;
-  padding: .75rem 5rem;
+  padding: 1.5rem;
 }
 
 .resume-background h3{
@@ -33,4 +24,8 @@
 
 .resume-dl a:hover {
   color: rgba(17, 100, 102,1);
+}
+
+.resume-proficiencies {
+  column-count: 4;
 }

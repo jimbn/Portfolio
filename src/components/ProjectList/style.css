@@ -5,7 +5,7 @@
   transform: translateX(50%);
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 .project-item-img{
   height: 12rem;
