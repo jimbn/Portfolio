@@ -8,7 +8,7 @@ function Resume() {
 
       <div className='resume-dl'>
         <h5>
-          Download my <a href='./assets/Resume.pdf' download='Resume.pdf'>RESUME</a>
+          Download my <a href='./assets/Resume.pdf' download='Resume.pdf'>resume</a>
         </h5>
       </div>
       <div>
